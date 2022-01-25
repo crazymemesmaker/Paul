@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content= "width=device-width, user-scalable=no">
+<title>Paul, play now the horror game.</title>
+</head>
+<body id="body" style="background-color:#1c1b1b; font-family:Arial, Helvetica, sans-serif;">
+<!-- Logo -->
+<img style="position:absolute;left:400px;" src="https://i.ibb.co/XW6Cnxh/GameLogo.png">
+<!-- Intro page css -->
+<style>
+#div1 {
+ color: white;
+}
+#div2 {
+ visibility: hidden;
+}
+.button {
+ background-color: #04d91d;
+ border: none;
+ color: white;
+ padding: 10px 25px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 0px 160px;
+ cursor: pointer;
+}
+.p {
+background-color: #04d91d;
+ border: none;
+ color: white;
+ padding: 10px 25px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 0px 160px;
+ cursor: pointer;
+}
+#img10 {
+filter: brightness(-10%);
+}
+#img11 {
+filter: brightness(-10%);
+}
+body {
+background-image: url("https://i.ibb.co/DDCnp6v/Normal-Background.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+</style>
+<!-- Intro page -->
+<div id="div1">
+<h1> Hi dear player!</h1>
+<p> Before you play, you must know that we have an official discord community!<br><b>click the image to join</b>, if you have discord.<br>You don't have discord? Download it or make an account directly in your online browser if you can, it's free!</p>
+<fieldset style="width:115;height:45;">
+<a href="https://discord.gg/F2phYvzP2V"><img style=width:50px;height:50px; src="https://i.ibb.co/k6mw5ZB/Discrd.png" alt="Discord logo"></a>
+<a href="https://youtube.com/channel/UCLfrunhGvjHgv6Xj_D46grw"><img style=width:60px;height:45px; src="https://i.ibb.co/tL18hPN/youtube.png" alt="Youtube logo"></a>
+</fieldset>
+<br><br>
+<button class="button" onClick="play()">Play now</button>
+<p class="p"><nobr>Select chapter:</nobr></p>
+<select style="position:absolute;top:395px;right:60px;">
+<option>Chapter 1</option>
+</select>
+
+<br><br><br><p id="p1" style="font-size:10px;">Copyright</p><br>
+<p style="font-size:15px;position:absolute;top:400px;">Made by <span style="color:yellow">Sportfly</span>.</p>
+<script>
+setTimeout(alert2, 1000);
+document.getElementById("div1").style.visibility = "hidden";
+function alert2() {
+alert("⚠️ WARNING: This game is an horror game and can scare kids or people that are not for horror.\n\n This game is marked NFE (Not for everyone), if you're not for horror please leave. \n\n For people that are sure what they're playing, thanks for playing this game.");
+document.getElementById("div1").style.visibility = "visible";
+document.getElementById("body").style.backgroundImage = "url('')";
+}
+const date = new Date();
+let year = date.getFullYear();
+document.getElementById("p1").innerText = "Copyright © 2021 / " + year + ".";
+</script>
+<!-- Twitter share button -->
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<!-- Game js 'n' html -->
+<div id="div2">
+<!-- Border -->
+<img id="img11" src="https://i.ibb.co/4VPL418/Board.png" alt="Border" style="position:absolute;left:-43px;top:3px;width:900px;height:500px;z-index:3;">
+<img id="img10" src="https://i.ibb.co/f2fZqGy/Board2.png" alt="Border 2" style="position:absolute;left:560px;top:3px;height:500px;z-index:3;">
+<!-- Button -->
+<div id="div3" style="visibility:hidden;">
+<img onClick="buttonClicked()" id="button" style="position:absolute;top:155px;left:193px;z-index:4;" src="https://svgshare.com/i/cMp.svg" alt="Button">
+<img id="thing" style="position:absolute;top:120px;left:150px;z-index:-1;" src="https://svgshare.com/i/cM7.svg">
+</div>
+<!-- Background -->
+<div id="div4" style="visibility:hidden;">
+<img src="https://i.ibb.co/HHQ71NJ/Background.png" style="position:absolute;top:50px;">
+</div>
+<!-- Intro text -->
+<p id="text1" style="opacity:1.0; position:relative; top:-150; left:200px; font-family:cursive-font, serif; "><strong>Survive until the end</strong></p>
+<!--Device turn-->
+<img src="https://svgshare.com/i/cf8.svg" id="turn" style="z-index:5;position:absolute;top:90;left:170;">
+<!-- Jumpscare paul -->
+<img id="paulJumpscare" src="https://i.ibb.co/MnzQHnh/PaulFace.png" style="height:100px;width:100px;visibility:hidden;position:absolute;top:200px;left:250px;filter: blur(7px);">
+<p onClick="switchVisual()" style="color:white;">click</p>
+<p id="text2" style="position:absolute;top:55px;left:85px;"><b>0</b></p>
+</div>
+<script>
+var i;
+var clicks = 0;
+var myVar;
+var audio;
+var id;
+var id2;
+//Change intro text opacity for cool effect
+function effectText() {
+ i = document.getElementById("text1");
+ i.style.opacity = document.getElementById("text1").style.opacity - 0.1;
+if (i.style.opacity == 0.0) {
+ myVar = clearInterval(myVar);
+}
+}
+//When game starts
+function play() {
+//It sets the annoucements comments to null to solve a problem with the text position
+ switchVisual();
+ switchVisual();
+ document.getElementById("div1").style.visibility = "hidden";
+ document.getElementById("body").style.backgroundColor = "black";
+//Check device orentation
+if(window.innerHeight < window.innerWidth) {
+ document.getElementById("div3").style.visibility = "visible";
+ document.getElementById("turn").style.visibility = "hidden";
+ document.getElementById("div2").style.visibility = "visible";
+ audio = new Audio("https://www.myinstants.com/media/sounds/ghostly-breath.mp3").play();
+ //Run opacity effect
+function triggerEffect() {
+ myVar = setInterval(effectText, 200);
+}
+ myVar = setTimeout(triggerEffect, 5000);
+} else {
+ document.getElementById("turn").style.visibility = "visible";
+//Waits unitil the player turned the device
+function checkOrentation() {
+if(window.innerHeight < window.innerWidth){
+ myVar = clearInterval(myVar);
+//restart when turned 
+ restart();
+}
+}
+myVar = setInterval(checkOrentation, 100);
+}
+}
+//Pause click button
+var pauseButton = 0;
+function wait() {
+ document.getElementById("button").src = "https://svgshare.com/i/cMp.svg";
+}
+function pause() {
+ pauseButton = 0;
+}
+//When button clicked
+function buttonClicked() {
+if (pauseButton == 0) {
+ clicks++;
+ document.getElementById("text2").innerHTML = "<b>" + clicks + "</b>";
+ audio = new Audio("https://www.myinstants.com/media/sounds/button-click.mp3").play();
+ pauseButton = 1;
+ document.getElementById("button").src = "https://svgshare.com/i/cKx.svg";
+ myVar = setTimeout(wait,100);
+ myVar = setTimeout(pause,100);
+}
+}
+function switchVisual() {
+i = document.getElementById("div3");
+if (i.style.visibility == "visible") {
+document.getElementById("div3").style.visibility = "hidden";
+document.getElementById("button").style.visibility = "hidden";
+document.getElementById("thing").style.visibility = "hidden";
+document.getElementById("div4").style.visibility = "visible";
+} else {
+document.getElementById("div3").style.visibility = "visible";
+document.getElementById("button").style.visibility = "visible";
+document.getElementById("thing").style.visibility = "visible";
+document.getElementById("div4").style.visibility = "hidden";
+}
+}
+//Restarts game (it dosn't start from the intro page)
+function restart() {
+play();
+}
+//Trigger jumpscare
+function jumpscareEffect() {
+i = document.getElementById("paulJumpscare");
+id2 = id2 - 5;
+id = id + 20;
+i.style.width = id + "px";
+i.style.height = id + "px";
+i.style.left = id2 + "px";
+if (i.style.height == 1000 + "px") {
+myVar = clearInterval(myVar);
+i.src = "https://i.ibb.co/7NhzHNw/Paul-Face2.png"
+myVar = setTimeout(hideJumpscarePaul, 800);
+function hideJumpscarePaul() {
+i.style.visibility = "hidden";
+i.style.width = "100px";
+i.style.height = "100px";
+document.getElementById("body").style.backgroundColor = "white";
+}
+
+}
+}
+function jumpscarePaul() {
+document.getElementById("body").style.backgroundColor = "red";
+audio = new Audio("https://www.mboxdrive.com/Scream.mp3").play();
+id2 = 250;
+id = 100;
+i = document.getElementById("paulJumpscare");
+i.style.visibility = "visible";
+myVar = setInterval(jumpscareEffect, 0);
+
+}
+</script>
+</body>
+</html>
