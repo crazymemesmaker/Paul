@@ -1,0 +1,42 @@
+#div1 {
+ color: white;
+}
+#div2 {
+ visibility: hidden;
+}
+.button {
+ background-color: #04d91d;
+ border: none;
+ color: white;
+ padding: 10px 25px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 0px 160px;
+ cursor: pointer;
+}
+.p {
+background-color: #04d91d;
+ border: none;
+ color: white;
+ padding: 10px 25px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 0px 160px;
+ cursor: pointer;
+}
+#img10 {
+filter: brightness(-10%);
+}
+#img11 {
+filter: brightness(-10%);
+}
+body {
+background-image: url("https://i.ibb.co/DDCnp6v/Normal-Background.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
