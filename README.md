@@ -2,7 +2,7 @@
 
 **This is an horror game.**
 This game scare kids or people that are not for horror.
-If you are not for horror then don't play.
+If you are not for horror then don't play or browse the game files.
 
 ## Intro
 
