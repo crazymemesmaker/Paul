@@ -25,5 +25,7 @@ Go to my official website to see informations and all my games.
 
 - **v.0.1.0** Separated js and css from html file.
 
+- **v.0.2.0** Added the game svg files to github assets folder.
+
 - (work in progress) **v.0.0.2** Fixing the position of the game elements.
 
