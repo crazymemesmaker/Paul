@@ -13,7 +13,7 @@ Website url: https://crazymemesmaker.github.io/Sportfly_website/
 
 Go to my official website to see informations and all my games.
 
-## Versions hystory
+## Versions history
 
 - **v.0** First tests on this game with github.
 
