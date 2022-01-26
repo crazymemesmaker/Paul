@@ -1,3 +1,9 @@
+## Warning
+
+**This is an horror game.**
+This game scare kids or people that are not for horror.
+If you are not for horror then don't play.
+
 ## Intro
 
 Welcome to the game Paul, officialy made by Sportfly.
