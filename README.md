@@ -1,3 +1,7 @@
+## My stats 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=crazymemesmaker&show_icons=true)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=crazymemesmaker)](https://github.com/crazymemesmaker/github-readme-stats)
 ## Warning
 
 **This is an horror game.**
