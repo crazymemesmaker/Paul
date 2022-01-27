@@ -21,6 +21,8 @@ Go to my official website to see informations and all my games.
 
 ## Versions history
 
+### Version 0, first game tests.
+
 - **v0** First tests on this game with github.
 
 - **v0.1.0** Separated js and css from html file.
