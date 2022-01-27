@@ -29,5 +29,7 @@ Go to my official website to see informations and all my games.
 
 - **v0.2.0** Added the game svg files to github assets folder.
 
+- **v0.3.0** Added favicon.
+
 - (work in progress) **v0.0.2** Fixing the position of the game elements.
 
