@@ -1,3 +1,4 @@
+//Alerts warning
 setTimeout(alert2, 1000);
 document.getElementById("div1").style.visibility = "hidden";
 function alert2() {
@@ -5,6 +6,7 @@ alert("⚠️ WARNING: This game is an horror game and can scare kids or people 
 document.getElementById("div1").style.visibility = "visible";
 document.getElementById("body").style.backgroundImage = "url('')";
 }
+//Gets actual year and sets copyright
 const date = new Date();
 let year = date.getFullYear();
 document.getElementById("p1").innerText = "Copyright © 2021 / " + year + ".";
