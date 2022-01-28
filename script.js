@@ -4,7 +4,7 @@ var myVar;
 var audio;
 var id;
 var id2;
-
+var words = ["You can't hide, you can't run, i will hunt you, i will kill you, and you can't do anything.","LOOK BEHIND YOU, I WILL BE IN YOUR HOUSE AT 3AM UNDER YOUR BED. HOPE YOU SLEEP BECAUSE I'M GONNA WATCH YOU."]
 //Change intro text opacity for cool effect
 function effectText() {
  i = document.getElementById("text1");
