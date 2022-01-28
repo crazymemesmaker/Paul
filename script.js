@@ -4,6 +4,7 @@ var myVar;
 var audio;
 var id;
 var id2;
+
 //Change intro text opacity for cool effect
 function effectText() {
  i = document.getElementById("text1");
