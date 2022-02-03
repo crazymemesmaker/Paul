@@ -112,3 +112,14 @@ i = document.getElementById("paulJumpscare");
 i.style.visibility = "visible";
 myVar = setInterval(jumpscareEffect, 0);
 }
+
+var stop = 0;
+
+function detect() {
+if (clicks > 9 && stop == 0) {
+var audio = new Audio("https://www.myinstants.com/media/sounds/annihilation-the-alien.mp3").play();
+stop = 1;
+}
+}
+
+setInterval(detect, 0);
