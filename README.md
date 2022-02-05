@@ -37,3 +37,10 @@ Go to my official website to see informations and all my games.
 
 - (work in progress) **v0.0.2** Fixing the position of the game elements.
 
+### Credits 
+
+- To Github, because this game wouldn't really exist without of Github.
+
+- To likebtn.com for the amazing like button, that i tried doing it by myself but failed.
+
+- To Twitter for the tweet button.
