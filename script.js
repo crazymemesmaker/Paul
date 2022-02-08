@@ -115,6 +115,15 @@ myVar = setInterval(jumpscareEffect, 0);
 
 var stop = 0;
 
+function static() {
+document.getElementById("static").style.visibility = "visible";
+var audio = new Audio("https://www.myinstants.com/media/sounds/tv-static-01_IOJDWir.mp3").play();
+}
+
+function hideStatic() {
+document.getElementById("static").style.visibility = "hidden"
+}
+
 function detect() {
 if (clicks > 9 && stop == 0) {
 var audio = new Audio("https://www.myinstants.com/media/sounds/annihilation-the-alien.mp3").play();
