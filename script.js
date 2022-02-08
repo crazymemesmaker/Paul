@@ -127,6 +127,8 @@ document.getElementById("static").style.visibility = "hidden"
 function detect() {
 if (clicks > 9 && stop == 0) {
 var audio = new Audio("https://www.myinstants.com/media/sounds/annihilation-the-alien.mp3").play();
+setTimeout(static, 1000);
+setTimeout(hideStatic, 4000);
 stop = 1;
 }
 }
