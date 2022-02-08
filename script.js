@@ -119,7 +119,7 @@ function static() {
 document.getElementById("static").style.visibility = "visible";
 var audio = new Audio("https://www.myinstants.com/media/sounds/tv-static-01_IOJDWir.mp3").play();
 }
-static();
+
 function hideStatic() {
 document.getElementById("static").style.visibility = "hidden"
 }
