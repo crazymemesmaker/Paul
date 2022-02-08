@@ -117,7 +117,7 @@ var stop = 0;
 
 function static() {
 document.getElementById("static").style.visibility = "visible";
-var audio = new Audio("https://www.myinstants.com/media/sounds/tv-static-01_IOJDWir.mp3").play();
+var audio2 = new Audio("https://www.myinstants.com/media/sounds/tv-static-01_IOJDWir.mp3").play();
 }
 
 function hideStatic() {
