@@ -133,7 +133,4 @@ stop = 1;
 }
 }
 
-setTimeout(static, 1000);
-setTimeout(hideStatic, 4000);
-
 setInterval(detect, 0);
