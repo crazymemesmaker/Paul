@@ -32,7 +32,15 @@ This game is developed without any code software, only with a notepad and a vect
 
 Fist learning HTML, CSS and JS is recommended.
 
+I can't put all the instructions of how to make a mod but i can only give 1 example of what it looks like:
+
 ### How to change images
 Go to assets folder and upload an image. Go to index.html, find the image element that you want to change and to src= put between the " " the name of the image file that you uploaded to change the image.
 
 **Attention:** if you uploaded the image in the assets folder don't put on src "img.png" but "assets/image.png" because if a src is in a folder you need to put also the name of the folder plus /.
+
+`<img src="assets/imgExample.png" style="width:100px;height:100px;" onClick="function()">`
+
+Example of image element in html.
+
+**For people that are instered how the code works, explore the code files with .js .html .css at the end, i left also some comments explaining the code.**
