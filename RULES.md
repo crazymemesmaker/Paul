@@ -1,4 +1,4 @@
-# Rules
+# Rules 
 
 Rules are really important phrases that everyone needs to read before doing something: because it makes people understand what they need to do without ruining something.
 
@@ -35,4 +35,4 @@ That is also ok with credits to this game and me and please do appropriate thing
 That is ok because it spreads the game making it popular, but they need to be not hate comments, if you hate this game it's ok but don't spread the hate or don't just say it.
 
 ## The end (Read this if you readed everything)
-Congratulations, you readed all the rules: now you can get the hell out of these rules and do what you want to do respecting the rules! Remember everytime these rules!
+Congratulations, you readed all the rules: now you can get the hell out of these rules and do what you want to do respecting the rules! Remember everytime these rules! :trollface:
