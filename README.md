@@ -1,5 +1,5 @@
 ## Important rules 
-Read this: [RULES.md](https://github.com/crazymemesmaker/Paul/blob/main/RULES.md), before doing something.
+Read this: [RULES.md](https://github.com/crazymemesmaker/Paul/blob/main/Read/RULES.md), before doing something.
 
 ## My stats 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=crazymemesmaker&show_icons=true)
