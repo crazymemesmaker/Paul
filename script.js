@@ -57,8 +57,9 @@ function buttonClicked() {
 if (pauseButton == 0) {
  clicks++;
  document.getElementById("text2").innerHTML = "<b>" + clicks + "</b>";
- audio = new Audio("https://www.myinstants.com/media/sounds/button-click.mp3").play();
- pauseButton = 1;
+ //audio = new Audio("https://www.myinstants.com/media/sounds/button-click.mp3").play();
+ playSound("Press");
+pauseButton = 1;
  document.getElementById("button").src = "https://svgshare.com/i/cKx.svg";
  myVar = setTimeout(wait,100);
  myVar = setTimeout(pause,100);
