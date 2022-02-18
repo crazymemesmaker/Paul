@@ -3,7 +3,7 @@ var sounds = {
   "Scream" : {
     url : "Sounds/Scream.mp3"
   },
-  "smash" : {
+  "Press" : {
     url : "Sounds/ButtonPress.mp3",
   },
   "ping" : {
