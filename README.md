@@ -47,3 +47,5 @@ Go to my official website to see informations and all my games.
 - To likebtn.com for the amazing like button, that i tried doing it by myself but failed.
 
 - To Twitter for the tweet button.
+
+- To [flukeout](https://github.com/flukeout/simple-sounds)'s simple-sounds for playing sounds.
