@@ -1,7 +1,7 @@
 //Credit to @flukeout
 var sounds = {
-  "dead" : {
-    url : "sounds/dead.wav"
+  "Scream" : {
+    url : "Sounds/scream.mp3"
   },
   "smash" : {
     url : "sounds/smash.mp3",
