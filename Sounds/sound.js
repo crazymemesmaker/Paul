@@ -1,22 +1,22 @@
 //Credit to @flukeout
 var sounds = {
   "Scream" : {
-    url : "Sounds/scream.mp3"
+    url : "Sounds/Scream.mp3"
   },
   "smash" : {
-    url : "sounds/smash.mp3",
+    url : "Sounds/ButtonPress.mp3",
   },
   "ping" : {
-    url : "sounds/ping.mp3"
+    url : "Sounds/ping.mp3"
   },
   "bump" : {
-    url : "sounds/bump.mp3"
+    url : "Sounds/bump.mp3"
   },
   "jump" : {
-    url : "sounds/jump.wav"
+    url : "Sounds/jump.wav"
   },
   "coin" : {
-    url : "sounds/coin.mp3"
+    url : "Sounds/coin.mp3"
   }
 };
 
