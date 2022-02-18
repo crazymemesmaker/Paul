@@ -1,4 +1,5 @@
 //Credit to flukeout for this part
+//Plays sounds 
 var sounds = {
   "Scream" : {
     url : "Sounds/Scream.mp3"
@@ -6,8 +7,8 @@ var sounds = {
   "Press" : {
     url : "Sounds/ButtonPress.mp3",
   },
-  "ping" : {
-    url : "Sounds/ping.mp3"
+  "Breath" : {
+    url : "Sounds/GhostlyBreath.mp3"
   },
   "bump" : {
     url : "Sounds/bump.mp3"
@@ -99,7 +100,8 @@ if(window.innerHeight < window.innerWidth) {
  document.getElementById("div3").style.visibility = "visible";
  document.getElementById("turn").style.visibility = "hidden";
  document.getElementById("div2").style.visibility = "visible";
- audio = new Audio("https://www.myinstants.com/media/sounds/ghostly-breath.mp3").play();
+ playSound("Breath");
+//audio = new Audio("https://www.myinstants.com/media/sounds/ghostly-breath.mp3").play();
  //Run opacity effect
 function triggerEffect() {
  myVar = setInterval(effectText, 200);
