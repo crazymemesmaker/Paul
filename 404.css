@@ -9,8 +9,10 @@ height:150px;
 h1 {
 text-align:center;
 font-size:100px;
+color: lightgray;
 }
 
 p {
 text-align:center;
+color: lightgray;
 }
