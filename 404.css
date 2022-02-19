@@ -1,7 +1,9 @@
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:150px;
+height:150px;
 }
 
 h1 {
@@ -12,4 +14,3 @@ font-size:100px;
 p {
 text-align:center;
 }
-
