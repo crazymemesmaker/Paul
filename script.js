@@ -209,6 +209,8 @@ setTimeout(hideStatic, 4000);
 
 document.getElementById("div3").style.visibility = "hidden";
 document.getElementById("div4").style.visibility = "hidden";
+document.getElementById("button").style.visibility = "hidden";
+document.getElementById("thing").style.visibility = "hidden";
 document.getElementById("switch").style.visibility = "hidden";
 
 document.getElementById("paul").style.visibility = "visible";
