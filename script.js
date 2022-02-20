@@ -206,6 +206,7 @@ if (clicks > 9 && stop == 0) {
 myVar = new Audio("https://www.myinstants.com/media/sounds/annihilation-the-alien.mp3").play();
 setTimeout(static, 1000);
 setTimeout(hideStatic, 4000);
+document.getElementById("paul").style.visibility = "visible";
 stop = 1;
 }
 }
