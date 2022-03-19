@@ -120,6 +120,13 @@ if(window.innerHeight < window.innerWidth){
 myVar = setInterval(checkOrentation, 100);
 }
 }
+
+function bug() {
+var pauseButton = 0;
+} 
+
+setInterval(bug, 100);
+
 //Pause click button
 var pauseButton = 0;
 function wait() {
